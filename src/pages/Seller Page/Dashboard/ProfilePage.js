@@ -2,8 +2,7 @@ import { Box, Button, Checkbox, FormControlLabel, Radio, RadioGroup, TextField, 
 import '../../../stylecss/profileStyle.css'
 import Navbar from "../../../Components/Navbar"
 import DashboardSideBar from "../../../Components/DashboardSideBar"
-import { Tabs } from '@mui/base/Tabs';
-import { Tab, TabPanel, TabsList } from "@mui/base"
+import { Tabs,Tab, TabPanel, TabsList } from "@mui/base"
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import BusinessIcon from '@mui/icons-material/Business';
 import uploadImg from '../../../assets/uploadImg.jpg'
