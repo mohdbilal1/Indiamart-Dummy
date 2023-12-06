@@ -1,0 +1,8 @@
+.box-bc:hover{
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137);
+    transition: all .4s ease 0s;
+    transform: scale(1.1);
+    opacity: 0.98s;
+    overflow: hidden;
+    
+}

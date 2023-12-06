@@ -1,0 +1,62 @@
+
+.nav-list{
+    margin-top: 5px;
+    align-items: center;
+    text-shadow: 1px 1px 3px rgb(0, 53, 168);
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0 10px 40px;
+    font-size:18px;
+}
+
+.logo-img-div{
+    margin-left: 40px;
+    margin-right: 200px;
+}
+
+@media screen and (max-width:1154px) {
+    .nav-list{
+        font-size:15px;  
+    }
+    .nav-list a{
+        padding: 3px 10px;
+    }
+    
+    
+   
+}
+@media screen and (max-width:800px) {
+    .logo-img-div{
+        margin-right: 60px;
+    }
+}
+
+.nav-list{
+    position: relative;
+}
+.signInHidden{
+    display: none;
+    position: absolute;
+    background: white !important;
+    z-index: 10;
+    color: black;
+    top: 20px;
+    right: 1px;
+    
+}
+.nav-list:hover .signInHidden{
+   display: block !important;
+  
+}
+
+@media screen and (max-width:576px) {
+    .header-right-box{
+        display: none; 
+    }
+    .logo-img{
+        width: 20%;
+
+    }
+}

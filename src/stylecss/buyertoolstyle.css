@@ -1,0 +1,40 @@
+.div-serch{
+    background-image: url('../assets/bgImgBuyertool.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inside-div-search{
+    width: 700px;
+    background-color: white;
+    padding: 5px 40px 40px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+.inside-div-search h4{
+    margin: 0 0 30px 0;
+    font-weight: 800;
+    color: rgb(25, 25, 179);
+}
+
+.div-carrdd:hover {
+    opacity: 0.18s;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+    box-shadow: 2px 2px 6px 2px grey;
+}
+
+.div-ship {
+    background-image: url('https://img.freepik.com/free-photo/aerial-view-container-cargo-ship-sea_335224-735.jpg?w=900&t=st=1695361681~exp=1695362281~hmac=c278ea25e84c9ae39867229c5e0a7ba0f79666d052eb2cad4d773c910ee4473b');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+.help-div{
+    padding:20px 30px;
+}
+
+.help-div:hover{
+    background: #000;
+    color: white;
+}

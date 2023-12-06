@@ -1,0 +1,94 @@
+.search-area-div{
+    background-image: url('../assets/home-pg-bg.jpg');
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.search-area-div h4{
+    color: white;
+    padding: 100px 0 10px 320px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.cardd-link{
+    margin-left: 5px;
+}
+.cardd-link:hover{
+    text-decoration: none;
+}
+.mainDiv{
+    position: relative; 
+}
+.hiding-box{
+    display: none !important;
+    position: absolute;
+    background: rgb(255, 247, 247) !important;
+    z-index: 10;
+    width: 1200px;
+    top: 60px;
+    left: -50px;
+}
+.mainDiv:hover .hiding-box{
+    display: flex !important;
+}
+.mainDiv:hover{
+    font-weight: bold;
+    background: rgb(255, 247, 247) !important;
+}
+
+.hid2-box2{
+    left: -230px;
+    padding-bottom: 40px;
+}
+.city-div:hover {
+    transform: scale(1.15);
+    opacity: 0.18s;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+}
+.feature-cardd:hover{
+    transform: scale(1.01);
+    opacity: 0.18s;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+    background-color:bisque;
+}
+.product-cardd:hover{
+    transform: scale(1.01);
+    opacity: 0.38s;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+}
+.building-construction:hover{
+    background-color:cornsilk;
+}
+.pharma-card:hover{
+    transform: scale(1.04);
+    opacity: 0.18s;
+    overflow: hidden;
+    transition: all .4s ease 0s;
+    background-color: lightgrey;
+}
+
+@media screen and (max-width:576px) {
+    .search-area-div h4{
+         padding: 50px 10px 10px 50px;
+    }
+    .select-div{
+        padding: 0 35px !important;
+    }
+    .mega-menu-box .mainDiv{
+        margin-left: 30px;
+    }
+    .slidr-div {
+        display: block;
+    }
+    .slidrr-comp {
+        width: 400px;
+    }
+   
+}
